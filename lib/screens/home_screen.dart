@@ -135,6 +135,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
+      // bottomNavigationBar: const BannerAdComponent(),
     );
   }
 }
