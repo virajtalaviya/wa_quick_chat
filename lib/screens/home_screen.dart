@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:whatsapp_launcher/controllers/home_controller.dart';
+import 'package:whatsapp_launcher/components/banner_ad.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -135,7 +136,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
-      // bottomNavigationBar: const BannerAdComponent(),
+      bottomNavigationBar: const BannerAdComponent(),
     );
   }
 }
